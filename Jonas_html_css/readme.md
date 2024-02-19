@@ -1,0 +1,1 @@
+### This repo will have Note & Practice Projects from Jonas Udemy HTML CSS course.

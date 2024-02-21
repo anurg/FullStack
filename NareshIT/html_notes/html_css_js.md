@@ -51,4 +51,69 @@
 •  <svg>
 ```
 
+### 6.Forms
+```
+•  <form>
+•  <input>
+•  <textarea>
+•  <button>
+•  <select>
+•  <option>
+•  <label>
+•  <fieldset>
+•  <legend>
+•  <datalist>
+•  <output>
+```
+### 7.Tables
+```
+•  <table>
+•  <tr>
+•  <th>
+•  <thead>
+•  <tbody>
+•  <td>
+•  <caption
+```
+
+### 8.Semantic Elements
+```
+•  <article>
+•  <section>
+•  <header>
+•  <footer>
+•  <aside>
+•  <main>
+•  <figure>
+•  <figcaption>
+•  <mark>
+•  <progress>
+•  <time>
+•  <details>
+•  <summary>
+```
+### 9.Deprecated Elements (Avoid Using)
+•  <center>
+•  <font>
+•  <strike>
+•  <b>
+•  <i>
+
+## CSS
+
+### 1. Box Model
+```
+• width
+• height
+• margin
+• padding
+• border
+• box-sizing
+```
+
+
+
+
+
+
 

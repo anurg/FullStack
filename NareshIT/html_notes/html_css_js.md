@@ -33,3 +33,22 @@
 •  <dt>
 •  <dd>
 ```
+
+### 4.Links and Navigation
+```
+•  <a>
+•  <nav>
+•  <link>
+```
+
+### 5.Embedded Content
+```
+•  <img>
+•  <audio>
+•  <video>
+•  <iframe>
+•  <canvas>
+•  <svg>
+```
+
+

@@ -24,7 +24,7 @@
 •  <hr>
 ```
 
-3.Lists
+### 3.Lists
 ```
 •  <ul>
 •  <ol>
@@ -93,12 +93,13 @@
 •  <summary>
 ```
 ### 9.Deprecated Elements (Avoid Using)
+```
 •  <center>
 •  <font>
 •  <strike>
 •  <b>
 •  <i>
-
+```
 ## CSS
 
 ### 1. Box Model

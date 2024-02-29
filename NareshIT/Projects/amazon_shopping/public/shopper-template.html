@@ -34,9 +34,7 @@
       .bi-lightning-fill {
         color: gold;
       }
-      main {
-        height: 400px;
-      }
+     
       footer {
         background-color: black;
         color: white;
@@ -104,6 +102,78 @@
         display: inline-block;
         padding-right: 10px;
       }
+      main {
+        height: 500px;
+        display: grid;
+        grid-template-columns: 4fr 4fr 4fr;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      .women-fashion {
+        background-image: url("./images/women-fashion.jpg");
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .men-fashion {
+        background-image: url("./images/men-fashion.jpg");
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .kids-fashion {
+        background-image: url("./images/kids-fashion.jpg");
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+      }
+      .main-title {
+        display: inline-block;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: Arial;
+        color: white;
+        text-shadow: 2px 2px 2px black;
+      }
+      .btn-shop {
+        display: inline-block;
+        background-color: white;
+        color: #000000;
+        padding: 15px;
+        font-size: 15px;
+        font-family: Arial;
+        width: 130px;
+        text-align: center;
+      }
+      .features {
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr 3fr;
+        margin-top: 30px;
+        margin-bottom:30px
+      }
+      .features-title {
+        font-family: Arial;
+        font-size: 15px;
+        font-weight: bold;
+      }
+      .new-collection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+      }
+      .collection-title {
+        font-size: 30px;
+        font-weight: bold;
+        font-family: Arial;
+      }
     </style>
   </head>
   <body>
@@ -136,8 +206,78 @@
     </article>
     <section>
       <main>
-        <div></div>
+        <div class="women-fashion">
+          <div>
+            <span class="main-title">Women</span>
+          </div>
+          <div>
+            <span class="btn-shop">Shop Women<span class="bi bi-arrow-right"></span></span>
+          </div>
+        </div>
+        <div class="men-fashion">
+          <div>
+            <span class="main-title">Men</span>
+          </div>
+          <div>
+            <span class="btn-shop">Shop Men<span class="bi bi-arrow-right"></span></span>
+          </div>
+        </div>
+        <div class="kids-fashion">
+          <div>
+            <span class="main-title">Kids</span>
+          </div>
+          <div>
+            <span class="btn-shop">Shop Kids <span class="bi bi-arrow-right"></span></span>
+          </div>
+        </div>
+
       </main>
+      <div class="features">
+        <div>
+          <div>
+            <span class="bi bi-truck"></span>
+          <span class="features-title">FREE SHIPPING</span>
+          </div>
+          <div>
+            <span class="features-des">From all orders over $100</span>
+          </div>
+        </div>
+
+        <div>
+          <div>
+            <span class="bi bi-arrow-repeat"></span>
+          <span class="features-title">FREE RETURNS</span>
+          </div>
+          <div>
+            <span>Return money within 30 days</span>
+          </div>
+          
+        </div>
+        <div>
+          <div>
+            <span class="bi bi-lock"></span>
+          <span class="features-title">SECURE SHOPPING </span>
+          </div>
+          <div>
+            <span>You're in safe hands</span>
+          </div>
+          
+        </div>
+        <div>
+          <div>
+            <span class="bi bi-tag"></span>
+          <span class="features-title">OVER 10,000 STYLES</span>
+          </div>
+          <div>
+            <span>We have everything you need</span>
+          </div>
+        </div>
+      </div>
+      <div class="new-collection">
+        <span>NEW COLLECTION</span>
+<span class="collection-title">Best Picks 2019</span>
+<p>Appear, dry there darkness they're seas, dry waters thing fly midst. Beast, above fly brought Very green. </p>
+      </div>
       <footer>
         <div class="footer-form">
           <div class="footer-title">Want style Ideas and Treats?</div>
